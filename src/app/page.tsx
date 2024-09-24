@@ -1,7 +1,12 @@
+import Hero from "@/components/Hero";
+import NewProduct from "@/components/NewProduct";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>Hello</main>
+    <main>
+      <Hero />
+      <NewProduct />
+    </main>
   );
 }
